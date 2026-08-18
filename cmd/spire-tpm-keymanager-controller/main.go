@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/sovereignite/controller-libs/kubeapi"
+	"github.com/sovereignite/rigging/kubeapi"
 )
 
 const keyManagersPath = "/apis/spire.sovereignite.io/v1alpha1/spiretpmkeymanagers"

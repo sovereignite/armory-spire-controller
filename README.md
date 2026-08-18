@@ -9,7 +9,7 @@ key), and merge-patches a `Ready` status condition back onto each object.
 Extracted from the
 [github.com/sovereignite/sovereignite](https://github.com/sovereignite/sovereignite)
 monorepo. The Kubernetes API client comes from
-[github.com/sovereignite/controller-libs](https://github.com/sovereignite/controller-libs)
+[github.com/sovereignite/rigging](https://github.com/sovereignite/rigging)
 (`kubeapi`), wired in via a local `replace` directive while controller-libs is
 still unpublished.
 

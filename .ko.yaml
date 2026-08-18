@@ -1,0 +1,8 @@
+builds:
+  - id: spire-tpm-keymanager-controller
+    dir: .
+    main: ./cmd/spire-tpm-keymanager-controller
+    env:
+      - CGO_ENABLED=0
+    ldflags:
+      - -s -w

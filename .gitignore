@@ -1,0 +1,8 @@
+# Go build/test artifacts
+*.test
+*.out
+/bin/
+/dist/
+
+# Compiled controller binary (go build ./... drops it at the repo root)
+/spire-tpm-keymanager-controller
